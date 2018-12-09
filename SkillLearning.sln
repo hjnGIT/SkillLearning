@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LearningC", "LearningC\LearningC.vcxproj", "{ACF8EA09-F4A3-4132-A596-17BC1850EDE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "MicroCalculator\Calculator.csproj", "{FCBD4F9E-06D7-4DB0-A7DB-EFBAD7315035}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroCalculator", "MicroCalculator\MicroCalculator.csproj", "{FCBD4F9E-06D7-4DB0-A7DB-EFBAD7315035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

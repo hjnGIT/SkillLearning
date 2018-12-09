@@ -1,6 +1,6 @@
 /*
  
- author: TLSLT
+ Author: TLSLT
  Data: 2007.10.21
  Company: 大连IT产业国际交流协会  
  
@@ -98,25 +98,24 @@ namespace Calculator
             this.cancle_all.BackColor = System.Drawing.Color.White;
             this.cancle_all.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cancle_all.ForeColor = System.Drawing.Color.Red;
-            this.cancle_all.Location = new System.Drawing.Point(206, 63);
+            this.cancle_all.Location = new System.Drawing.Point(321, 85);
             this.cancle_all.Name = "cancle_all";
-            this.cancle_all.Size = new System.Drawing.Size(67, 32);
+            this.cancle_all.Size = new System.Drawing.Size(141, 60);
             this.cancle_all.TabIndex = 0;
             this.cancle_all.TabStop = false;
             this.cancle_all.Text = "C";
             this.cancle_all.UseVisualStyleBackColor = false;
             this.cancle_all.Click += new System.EventHandler(this.c_Click);
             this.cancle_all.GotFocus += new System.EventHandler(this.button_GotFocus);
-
             // 
             // backspace
             // 
             this.backspace.BackColor = System.Drawing.Color.White;
             this.backspace.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.backspace.ForeColor = System.Drawing.Color.Red;
-            this.backspace.Location = new System.Drawing.Point(55, 63);
+            this.backspace.Location = new System.Drawing.Point(88, 85);
             this.backspace.Name = "backspace";
-            this.backspace.Size = new System.Drawing.Size(73, 32);
+            this.backspace.Size = new System.Drawing.Size(125, 60);
             this.backspace.TabIndex = 0;
             this.backspace.TabStop = false;
             this.backspace.Text = "Backspace";
@@ -129,9 +128,9 @@ namespace Calculator
             this.cancle_last.BackColor = System.Drawing.Color.White;
             this.cancle_last.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cancle_last.ForeColor = System.Drawing.Color.Red;
-            this.cancle_last.Location = new System.Drawing.Point(135, 63);
+            this.cancle_last.Location = new System.Drawing.Point(219, 85);
             this.cancle_last.Name = "cancle_last";
-            this.cancle_last.Size = new System.Drawing.Size(65, 32);
+            this.cancle_last.Size = new System.Drawing.Size(96, 60);
             this.cancle_last.TabIndex = 0;
             this.cancle_last.TabStop = false;
             this.cancle_last.Text = "CE";
@@ -145,20 +144,20 @@ namespace Calculator
             this.ctrl_c,
             this.ctrl_v});
             this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
-            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(73, 25);
             this.文件ToolStripMenuItem.Text = "编辑(&E)";
             // 
             // ctrl_c
             // 
             this.ctrl_c.Name = "ctrl_c";
-            this.ctrl_c.Size = new System.Drawing.Size(154, 22);
+            this.ctrl_c.Size = new System.Drawing.Size(188, 26);
             this.ctrl_c.Text = "复制(&C) Ctrl+C";
             this.ctrl_c.Click += new System.EventHandler(this.ctrl_c_Click);
             // 
             // ctrl_v
             // 
             this.ctrl_v.Name = "ctrl_v";
-            this.ctrl_v.Size = new System.Drawing.Size(154, 22);
+            this.ctrl_v.Size = new System.Drawing.Size(188, 26);
             this.ctrl_v.Text = "粘贴(&P) Ctrl+V";
             this.ctrl_v.Click += new System.EventHandler(this.ctrl_v_Click);
             // 
@@ -172,7 +171,7 @@ namespace Calculator
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.ShowItemToolTips = true;
-            this.menu.Size = new System.Drawing.Size(279, 24);
+            this.menu.Size = new System.Drawing.Size(474, 29);
             this.menu.TabIndex = 15;
             this.menu.Text = "文件";
             this.menu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menu_ItemClicked);
@@ -180,13 +179,13 @@ namespace Calculator
             // 查看ToolStripMenuItem
             // 
             this.查看ToolStripMenuItem.Name = "查看ToolStripMenuItem";
-            this.查看ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.查看ToolStripMenuItem.Size = new System.Drawing.Size(75, 25);
             this.查看ToolStripMenuItem.Text = "查看(&V)";
             // 
             // 帮助ToolStripMenuItem
             // 
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(76, 25);
             this.帮助ToolStripMenuItem.Text = "帮助(&H)";
             // 
             // text_display
@@ -194,12 +193,12 @@ namespace Calculator
             this.text_display.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor;
             this.text_display.BackColor = System.Drawing.SystemColors.Window;
             this.text_display.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_display.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.text_display.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.text_display.ForeColor = System.Drawing.Color.Black;
-            this.text_display.Location = new System.Drawing.Point(6, 28);
+            this.text_display.Location = new System.Drawing.Point(10, 32);
             this.text_display.Name = "text_display";
             this.text_display.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.text_display.Size = new System.Drawing.Size(267, 26);
+            this.text_display.Size = new System.Drawing.Size(452, 44);
             this.text_display.TabIndex = 0;
             this.text_display.TabStop = false;
             this.text_display.Text = "0.";
@@ -211,9 +210,9 @@ namespace Calculator
             this.no_0.BackColor = System.Drawing.Color.White;
             this.no_0.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_0.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_0.Location = new System.Drawing.Point(55, 209);
+            this.no_0.Location = new System.Drawing.Point(86, 356);
             this.no_0.Name = "no_0";
-            this.no_0.Size = new System.Drawing.Size(40, 30);
+            this.no_0.Size = new System.Drawing.Size(70, 60);
             this.no_0.TabIndex = 0;
             this.no_0.TabStop = false;
             this.no_0.Tag = "0";
@@ -227,9 +226,9 @@ namespace Calculator
             this.dot.BackColor = System.Drawing.Color.White;
             this.dot.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dot.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dot.Location = new System.Drawing.Point(147, 209);
+            this.dot.Location = new System.Drawing.Point(240, 356);
             this.dot.Name = "dot";
-            this.dot.Size = new System.Drawing.Size(40, 30);
+            this.dot.Size = new System.Drawing.Size(70, 60);
             this.dot.TabIndex = 0;
             this.dot.TabStop = false;
             this.dot.Tag = "dot";
@@ -243,9 +242,9 @@ namespace Calculator
             this.equal.BackColor = System.Drawing.Color.White;
             this.equal.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.equal.ForeColor = System.Drawing.Color.Red;
-            this.equal.Location = new System.Drawing.Point(234, 209);
+            this.equal.Location = new System.Drawing.Point(394, 356);
             this.equal.Name = "equal";
-            this.equal.Size = new System.Drawing.Size(40, 30);
+            this.equal.Size = new System.Drawing.Size(70, 60);
             this.equal.TabIndex = 0;
             this.equal.TabStop = false;
             this.equal.Text = "=";
@@ -258,9 +257,9 @@ namespace Calculator
             this.operate_div.BackColor = System.Drawing.Color.White;
             this.operate_div.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.operate_div.ForeColor = System.Drawing.Color.Red;
-            this.operate_div.Location = new System.Drawing.Point(193, 101);
+            this.operate_div.Location = new System.Drawing.Point(318, 157);
             this.operate_div.Name = "operate_div";
-            this.operate_div.Size = new System.Drawing.Size(40, 30);
+            this.operate_div.Size = new System.Drawing.Size(70, 60);
             this.operate_div.TabIndex = 0;
             this.operate_div.TabStop = false;
             this.operate_div.Tag = "";
@@ -274,9 +273,9 @@ namespace Calculator
             this.operate_ride.BackColor = System.Drawing.Color.White;
             this.operate_ride.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.operate_ride.ForeColor = System.Drawing.Color.Red;
-            this.operate_ride.Location = new System.Drawing.Point(193, 137);
+            this.operate_ride.Location = new System.Drawing.Point(318, 223);
             this.operate_ride.Name = "operate_ride";
-            this.operate_ride.Size = new System.Drawing.Size(40, 30);
+            this.operate_ride.Size = new System.Drawing.Size(70, 60);
             this.operate_ride.TabIndex = 0;
             this.operate_ride.TabStop = false;
             this.operate_ride.Tag = "";
@@ -290,9 +289,9 @@ namespace Calculator
             this.operate_dec.BackColor = System.Drawing.Color.White;
             this.operate_dec.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.operate_dec.ForeColor = System.Drawing.Color.Red;
-            this.operate_dec.Location = new System.Drawing.Point(193, 173);
+            this.operate_dec.Location = new System.Drawing.Point(318, 289);
             this.operate_dec.Name = "operate_dec";
-            this.operate_dec.Size = new System.Drawing.Size(40, 30);
+            this.operate_dec.Size = new System.Drawing.Size(70, 60);
             this.operate_dec.TabIndex = 0;
             this.operate_dec.TabStop = false;
             this.operate_dec.Tag = "";
@@ -306,9 +305,9 @@ namespace Calculator
             this.operate_add.BackColor = System.Drawing.Color.White;
             this.operate_add.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.operate_add.ForeColor = System.Drawing.Color.Red;
-            this.operate_add.Location = new System.Drawing.Point(193, 209);
+            this.operate_add.Location = new System.Drawing.Point(318, 356);
             this.operate_add.Name = "operate_add";
-            this.operate_add.Size = new System.Drawing.Size(40, 30);
+            this.operate_add.Size = new System.Drawing.Size(70, 60);
             this.operate_add.TabIndex = 0;
             this.operate_add.TabStop = false;
             this.operate_add.Tag = "";
@@ -330,9 +329,10 @@ namespace Calculator
             this.flowLayoutPanel_numbers.Controls.Add(this.no_2);
             this.flowLayoutPanel_numbers.Controls.Add(this.no_3);
             this.flowLayoutPanel_numbers.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.flowLayoutPanel_numbers.Location = new System.Drawing.Point(52, 98);
+            this.flowLayoutPanel_numbers.Location = new System.Drawing.Point(85, 154);
+            this.flowLayoutPanel_numbers.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
             this.flowLayoutPanel_numbers.Name = "flowLayoutPanel_numbers";
-            this.flowLayoutPanel_numbers.Size = new System.Drawing.Size(140, 110);
+            this.flowLayoutPanel_numbers.Size = new System.Drawing.Size(230, 199);
             this.flowLayoutPanel_numbers.TabIndex = 1;
             // 
             // no_7
@@ -342,7 +342,7 @@ namespace Calculator
             this.no_7.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.no_7.Location = new System.Drawing.Point(3, 3);
             this.no_7.Name = "no_7";
-            this.no_7.Size = new System.Drawing.Size(40, 30);
+            this.no_7.Size = new System.Drawing.Size(70, 60);
             this.no_7.TabIndex = 0;
             this.no_7.TabStop = false;
             this.no_7.Tag = "7";
@@ -356,9 +356,9 @@ namespace Calculator
             this.no_8.BackColor = System.Drawing.Color.White;
             this.no_8.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_8.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_8.Location = new System.Drawing.Point(49, 3);
+            this.no_8.Location = new System.Drawing.Point(79, 3);
             this.no_8.Name = "no_8";
-            this.no_8.Size = new System.Drawing.Size(40, 30);
+            this.no_8.Size = new System.Drawing.Size(70, 60);
             this.no_8.TabIndex = 0;
             this.no_8.TabStop = false;
             this.no_8.Tag = "8";
@@ -372,9 +372,9 @@ namespace Calculator
             this.no_9.BackColor = System.Drawing.Color.White;
             this.no_9.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_9.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_9.Location = new System.Drawing.Point(95, 3);
+            this.no_9.Location = new System.Drawing.Point(155, 3);
             this.no_9.Name = "no_9";
-            this.no_9.Size = new System.Drawing.Size(40, 30);
+            this.no_9.Size = new System.Drawing.Size(70, 60);
             this.no_9.TabIndex = 0;
             this.no_9.TabStop = false;
             this.no_9.Tag = "9";
@@ -388,9 +388,9 @@ namespace Calculator
             this.no_4.BackColor = System.Drawing.Color.White;
             this.no_4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_4.Location = new System.Drawing.Point(3, 39);
+            this.no_4.Location = new System.Drawing.Point(3, 69);
             this.no_4.Name = "no_4";
-            this.no_4.Size = new System.Drawing.Size(40, 30);
+            this.no_4.Size = new System.Drawing.Size(70, 60);
             this.no_4.TabIndex = 0;
             this.no_4.TabStop = false;
             this.no_4.Tag = "4";
@@ -404,9 +404,9 @@ namespace Calculator
             this.no_5.BackColor = System.Drawing.Color.White;
             this.no_5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_5.Location = new System.Drawing.Point(49, 39);
+            this.no_5.Location = new System.Drawing.Point(79, 69);
             this.no_5.Name = "no_5";
-            this.no_5.Size = new System.Drawing.Size(40, 30);
+            this.no_5.Size = new System.Drawing.Size(70, 60);
             this.no_5.TabIndex = 0;
             this.no_5.TabStop = false;
             this.no_5.Tag = "5";
@@ -420,9 +420,9 @@ namespace Calculator
             this.no_6.BackColor = System.Drawing.Color.White;
             this.no_6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_6.Location = new System.Drawing.Point(95, 39);
+            this.no_6.Location = new System.Drawing.Point(155, 69);
             this.no_6.Name = "no_6";
-            this.no_6.Size = new System.Drawing.Size(40, 30);
+            this.no_6.Size = new System.Drawing.Size(70, 60);
             this.no_6.TabIndex = 0;
             this.no_6.TabStop = false;
             this.no_6.Tag = "6";
@@ -436,9 +436,9 @@ namespace Calculator
             this.no_1.BackColor = System.Drawing.Color.White;
             this.no_1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_1.Location = new System.Drawing.Point(3, 75);
+            this.no_1.Location = new System.Drawing.Point(3, 135);
             this.no_1.Name = "no_1";
-            this.no_1.Size = new System.Drawing.Size(40, 30);
+            this.no_1.Size = new System.Drawing.Size(70, 60);
             this.no_1.TabIndex = 0;
             this.no_1.TabStop = false;
             this.no_1.Tag = "1";
@@ -452,9 +452,9 @@ namespace Calculator
             this.no_2.BackColor = System.Drawing.Color.White;
             this.no_2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_2.Location = new System.Drawing.Point(49, 75);
+            this.no_2.Location = new System.Drawing.Point(79, 135);
             this.no_2.Name = "no_2";
-            this.no_2.Size = new System.Drawing.Size(40, 30);
+            this.no_2.Size = new System.Drawing.Size(70, 60);
             this.no_2.TabIndex = 0;
             this.no_2.TabStop = false;
             this.no_2.Tag = "2";
@@ -468,9 +468,9 @@ namespace Calculator
             this.no_3.BackColor = System.Drawing.Color.White;
             this.no_3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.no_3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.no_3.Location = new System.Drawing.Point(95, 75);
+            this.no_3.Location = new System.Drawing.Point(155, 135);
             this.no_3.Name = "no_3";
-            this.no_3.Size = new System.Drawing.Size(40, 30);
+            this.no_3.Size = new System.Drawing.Size(70, 60);
             this.no_3.TabIndex = 0;
             this.no_3.TabStop = false;
             this.no_3.Tag = "3";
@@ -484,9 +484,9 @@ namespace Calculator
             this.minus.BackColor = System.Drawing.Color.White;
             this.minus.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.minus.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.minus.Location = new System.Drawing.Point(101, 209);
+            this.minus.Location = new System.Drawing.Point(164, 356);
             this.minus.Name = "minus";
-            this.minus.Size = new System.Drawing.Size(40, 30);
+            this.minus.Size = new System.Drawing.Size(70, 60);
             this.minus.TabIndex = 0;
             this.minus.TabStop = false;
             this.minus.Text = "+/-";
@@ -499,9 +499,9 @@ namespace Calculator
             this.sqrt.BackColor = System.Drawing.Color.White;
             this.sqrt.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.sqrt.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.sqrt.Location = new System.Drawing.Point(234, 101);
+            this.sqrt.Location = new System.Drawing.Point(394, 157);
             this.sqrt.Name = "sqrt";
-            this.sqrt.Size = new System.Drawing.Size(40, 30);
+            this.sqrt.Size = new System.Drawing.Size(70, 60);
             this.sqrt.TabIndex = 0;
             this.sqrt.TabStop = false;
             this.sqrt.Text = "sqrt";
@@ -514,9 +514,9 @@ namespace Calculator
             this.reciprocal.BackColor = System.Drawing.Color.White;
             this.reciprocal.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.reciprocal.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.reciprocal.Location = new System.Drawing.Point(234, 173);
+            this.reciprocal.Location = new System.Drawing.Point(394, 289);
             this.reciprocal.Name = "reciprocal";
-            this.reciprocal.Size = new System.Drawing.Size(40, 30);
+            this.reciprocal.Size = new System.Drawing.Size(70, 60);
             this.reciprocal.TabIndex = 0;
             this.reciprocal.TabStop = false;
             this.reciprocal.Text = "1/x";
@@ -529,9 +529,9 @@ namespace Calculator
             this.percent.BackColor = System.Drawing.Color.White;
             this.percent.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.percent.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.percent.Location = new System.Drawing.Point(234, 137);
+            this.percent.Location = new System.Drawing.Point(394, 223);
             this.percent.Name = "percent";
-            this.percent.Size = new System.Drawing.Size(40, 30);
+            this.percent.Size = new System.Drawing.Size(70, 60);
             this.percent.TabIndex = 0;
             this.percent.TabStop = false;
             this.percent.Text = "%";
@@ -544,9 +544,9 @@ namespace Calculator
             this.mc.BackColor = System.Drawing.Color.White;
             this.mc.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mc.ForeColor = System.Drawing.Color.Red;
-            this.mc.Location = new System.Drawing.Point(6, 101);
+            this.mc.Location = new System.Drawing.Point(10, 157);
             this.mc.Name = "mc";
-            this.mc.Size = new System.Drawing.Size(40, 30);
+            this.mc.Size = new System.Drawing.Size(70, 60);
             this.mc.TabIndex = 0;
             this.mc.TabStop = false;
             this.mc.Text = "MC";
@@ -559,9 +559,9 @@ namespace Calculator
             this.mr.BackColor = System.Drawing.Color.White;
             this.mr.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mr.ForeColor = System.Drawing.Color.Red;
-            this.mr.Location = new System.Drawing.Point(6, 137);
+            this.mr.Location = new System.Drawing.Point(10, 223);
             this.mr.Name = "mr";
-            this.mr.Size = new System.Drawing.Size(40, 30);
+            this.mr.Size = new System.Drawing.Size(70, 60);
             this.mr.TabIndex = 0;
             this.mr.TabStop = false;
             this.mr.Text = "MR";
@@ -574,9 +574,9 @@ namespace Calculator
             this.ms.BackColor = System.Drawing.Color.White;
             this.ms.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ms.ForeColor = System.Drawing.Color.Red;
-            this.ms.Location = new System.Drawing.Point(6, 173);
+            this.ms.Location = new System.Drawing.Point(10, 289);
             this.ms.Name = "ms";
-            this.ms.Size = new System.Drawing.Size(40, 30);
+            this.ms.Size = new System.Drawing.Size(70, 60);
             this.ms.TabIndex = 0;
             this.ms.TabStop = false;
             this.ms.Text = "MS";
@@ -589,9 +589,9 @@ namespace Calculator
             this.mAdd.BackColor = System.Drawing.Color.White;
             this.mAdd.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mAdd.ForeColor = System.Drawing.Color.Red;
-            this.mAdd.Location = new System.Drawing.Point(6, 209);
+            this.mAdd.Location = new System.Drawing.Point(10, 356);
             this.mAdd.Name = "mAdd";
-            this.mAdd.Size = new System.Drawing.Size(40, 30);
+            this.mAdd.Size = new System.Drawing.Size(70, 60);
             this.mAdd.TabIndex = 0;
             this.mAdd.TabStop = false;
             this.mAdd.Text = "M+";
@@ -605,16 +605,16 @@ namespace Calculator
             this.label_m.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label_m.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_m.Location = new System.Drawing.Point(6, 63);
+            this.label_m.Location = new System.Drawing.Point(10, 85);
             this.label_m.Name = "label_m";
-            this.label_m.Size = new System.Drawing.Size(40, 32);
+            this.label_m.Size = new System.Drawing.Size(70, 60);
             this.label_m.TabIndex = 1;
             this.label_m.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmCalculator
             // 
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(279, 244);
+            this.ClientSize = new System.Drawing.Size(474, 426);
             this.Controls.Add(this.label_m);
             this.Controls.Add(this.mAdd);
             this.Controls.Add(this.ms);
@@ -639,28 +639,12 @@ namespace Calculator
             this.Controls.Add(this.menu);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
             this.MainMenuStrip = this.menu;
             this.MaximizeBox = false;
             this.Name = "frmCalculator";
             this.Text = "C#计算器";
-            
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyUp);
-            this.KeyPreview = true;
-            /*
-             * 加上这两句之后才会使键盘好使。 
-             * this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyUp);
-             * 这句话把整个窗体（包括其所有控件）的KeyUp事件都委托给keyUp()方法处理。
-             * 
-             * 这句话的意思是把KeyUp事件交与一个委托（KeyEventHandler）来执行，这个委托把KeyUp事件交给（其实是做出一个指向）keyUp()方法来做。
-             * 
-             * 这里的委托只是狭义的委托，而广义上我们可以自己定义委托来使用。
-             * 
-             * 而KeyPreview属性是与焦点有关的。
-             * 
-             */
-
-
-
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.flowLayoutPanel_numbers.ResumeLayout(false);
