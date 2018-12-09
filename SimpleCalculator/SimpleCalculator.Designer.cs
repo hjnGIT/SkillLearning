@@ -54,14 +54,13 @@
             // btn1
             // 
             this.btn1.Location = new System.Drawing.Point(18, 153);
-            this.btn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn1.Margin = new System.Windows.Forms.Padding(2);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(75, 40);
             this.btn1.TabIndex = 0;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.NumberButton_Click);
-            this.btn1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btn1_KeyPress);
             // 
             // contextMenuStrip1
             // 
@@ -72,17 +71,15 @@
             // txtDisplay
             // 
             this.txtDisplay.Location = new System.Drawing.Point(38, 53);
-            this.txtDisplay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDisplay.Margin = new System.Windows.Forms.Padding(2);
             this.txtDisplay.Name = "txtDisplay";
             this.txtDisplay.Size = new System.Drawing.Size(226, 21);
             this.txtDisplay.TabIndex = 2;
-            this.txtDisplay.TextChanged += new System.EventHandler(this.txtDisplay_TextChanged);
-            this.txtDisplay.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Number_KeyPress);
             // 
             // btn2
             // 
             this.btn2.Location = new System.Drawing.Point(116, 153);
-            this.btn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn2.Margin = new System.Windows.Forms.Padding(2);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(75, 40);
             this.btn2.TabIndex = 3;
@@ -93,7 +90,7 @@
             // btn4
             // 
             this.btn4.Location = new System.Drawing.Point(18, 211);
-            this.btn4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn4.Margin = new System.Windows.Forms.Padding(2);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(75, 40);
             this.btn4.TabIndex = 5;
@@ -105,7 +102,7 @@
             // 
             this.btnOperAdd.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnOperAdd.Location = new System.Drawing.Point(334, 153);
-            this.btnOperAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperAdd.Name = "btnOperAdd";
             this.btnOperAdd.Size = new System.Drawing.Size(75, 40);
             this.btnOperAdd.TabIndex = 12;
@@ -117,7 +114,7 @@
             // 
             this.btnOperSubtract.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnOperSubtract.Location = new System.Drawing.Point(334, 198);
-            this.btnOperSubtract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperSubtract.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperSubtract.Name = "btnOperSubtract";
             this.btnOperSubtract.Size = new System.Drawing.Size(75, 40);
             this.btnOperSubtract.TabIndex = 13;
@@ -129,7 +126,7 @@
             // 
             this.btnOperMultiply.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnOperMultiply.Location = new System.Drawing.Point(334, 242);
-            this.btnOperMultiply.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperMultiply.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperMultiply.Name = "btnOperMultiply";
             this.btnOperMultiply.Size = new System.Drawing.Size(75, 40);
             this.btnOperMultiply.TabIndex = 14;
@@ -141,7 +138,7 @@
             // 
             this.btnOperDevide.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnOperDevide.Location = new System.Drawing.Point(334, 287);
-            this.btnOperDevide.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperDevide.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperDevide.Name = "btnOperDevide";
             this.btnOperDevide.Size = new System.Drawing.Size(75, 40);
             this.btnOperDevide.TabIndex = 15;
@@ -153,7 +150,7 @@
             // 
             this.btnEsc.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnEsc.Location = new System.Drawing.Point(430, 153);
-            this.btnEsc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEsc.Margin = new System.Windows.Forms.Padding(2);
             this.btnEsc.Name = "btnEsc";
             this.btnEsc.Size = new System.Drawing.Size(75, 40);
             this.btnEsc.TabIndex = 16;
@@ -165,7 +162,7 @@
             // 
             this.btnOperSqr.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnOperSqr.Location = new System.Drawing.Point(430, 198);
-            this.btnOperSqr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperSqr.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperSqr.Name = "btnOperSqr";
             this.btnOperSqr.Size = new System.Drawing.Size(75, 40);
             this.btnOperSqr.TabIndex = 17;
@@ -177,7 +174,7 @@
             // 
             this.btnOperSqrRoot.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnOperSqrRoot.Location = new System.Drawing.Point(430, 242);
-            this.btnOperSqrRoot.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperSqrRoot.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperSqrRoot.Name = "btnOperSqrRoot";
             this.btnOperSqrRoot.Size = new System.Drawing.Size(75, 40);
             this.btnOperSqrRoot.TabIndex = 18;
@@ -189,7 +186,7 @@
             // 
             this.btnCalculate.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnCalculate.Location = new System.Drawing.Point(516, 153);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(2);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 40);
             this.btnCalculate.TabIndex = 19;
@@ -200,7 +197,7 @@
             // btn3
             // 
             this.btn3.Location = new System.Drawing.Point(214, 153);
-            this.btn3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn3.Margin = new System.Windows.Forms.Padding(2);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(75, 40);
             this.btn3.TabIndex = 4;
@@ -211,7 +208,7 @@
             // btn0
             // 
             this.btn0.Location = new System.Drawing.Point(116, 318);
-            this.btn0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn0.Margin = new System.Windows.Forms.Padding(2);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(75, 40);
             this.btn0.TabIndex = 11;
@@ -222,7 +219,7 @@
             // btn6
             // 
             this.btn6.Location = new System.Drawing.Point(214, 211);
-            this.btn6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn6.Margin = new System.Windows.Forms.Padding(2);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(75, 40);
             this.btn6.TabIndex = 7;
@@ -233,7 +230,7 @@
             // btn7
             // 
             this.btn7.Location = new System.Drawing.Point(18, 266);
-            this.btn7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn7.Margin = new System.Windows.Forms.Padding(2);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(75, 40);
             this.btn7.TabIndex = 8;
@@ -244,7 +241,7 @@
             // btn8
             // 
             this.btn8.Location = new System.Drawing.Point(116, 266);
-            this.btn8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn8.Margin = new System.Windows.Forms.Padding(2);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(75, 40);
             this.btn8.TabIndex = 9;
@@ -255,7 +252,7 @@
             // btn9
             // 
             this.btn9.Location = new System.Drawing.Point(214, 266);
-            this.btn9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn9.Margin = new System.Windows.Forms.Padding(2);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(75, 40);
             this.btn9.TabIndex = 10;
@@ -266,7 +263,7 @@
             // btn5
             // 
             this.btn5.Location = new System.Drawing.Point(116, 211);
-            this.btn5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn5.Margin = new System.Windows.Forms.Padding(2);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(75, 40);
             this.btn5.TabIndex = 6;
@@ -299,7 +296,8 @@
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.txtDisplay);
             this.Controls.Add(this.btn1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SimpleCalculator";
             this.Text = "SimpleCalculator";
             this.Load += new System.EventHandler(this.SimpleCalculator_Load);
@@ -310,13 +308,6 @@
         }
 
         #endregion
-        //铁律1:为每一个使用到的控件(窗体,按钮, 文本框,以及所有),起一个一目了然的简易易懂的名字,使用名词.
-        //一旦发现有更好的名字,立刻替换.
-
-        //Designer中的代码, 是自动生成的,只关注你可控的部分.
-        //不认识的,暂时不用理会.
-        //Designer中的代码, 原则上说不应该手动修改.
-        //设计器中的代码是根据前台画面自动生成的，告诉后台这个界面长什么样，告诉计算机把这个画面画成什么样
 
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
 
