@@ -308,24 +308,67 @@ namespace SimpleCalculator
         //    }
 
 
-        private void txtDisplay_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
-        private void KeybordNumber_Load(object sender, KeyPressEventArgs e)
-        {
-
-        }
 
         private void Number_KeyPress(object sender, KeyPressEventArgs e)
         {
+            switch(e.KeyChar)
+            {
+                case '1':
+                    btn1.PerformClick();
+                    break;
+                case '2':
+                    btn2.PerformClick();
+                    break;
+                case '3':
+                    btn3.PerformClick();
+                    break;
+                case '4':
+                    btn4.PerformClick();
+                    break;
+                case '5':
+                    btn5.PerformClick();
+                    break;
+                case '6':
+                    btn6.PerformClick();
+                    break;
+                case '7':
+                    btn7.PerformClick();
+                    break;
+                case '8':
+                    btn8.PerformClick();
+                    break;
+                case '9':
+                    btn9.PerformClick();
+                    break;
+                case '0':
+                    btn0.PerformClick();
+                    break;
+                case '+':
+                    btnOperAdd.PerformClick();
+                    break;
+                case '-':
+                    btnOperSubtract.PerformClick();
+                    break;
+                case '*':
+                    btnOperMultiply.PerformClick();
+                    break;
+                case '/':
+                    btnOperDevide.PerformClick();
+                    break;
+                case 'C':
+                    btnEsc.PerformClick();
+                    break;
+                case '=':
+                    btnCalculate.PerformClick();
+                    break;
+                //square sqrt 没能实现，因为单引号里只能容纳1个字符，sqrt已经4个了
+                // 要是把按钮名改为一个字，也不现实，开方也不能只写个‘开’吧
+                //没来得及实现全局监控，光标点进去输入栏才能输入，应该是keypress局限性
+                //涉及到开方平方只能手动计算了，现在这么写很笨，明天实现一下重写
 
+            }
+            e.Handled = true;
         }
+        
     }
 }
